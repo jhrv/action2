@@ -1,6 +1,4 @@
-FROM alpine:3.10
-
-COPY LICENSE README.md /
+FROM scratch
 
 COPY entrypoint.sh /entrypoint.sh
 
